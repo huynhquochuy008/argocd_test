@@ -10,7 +10,7 @@ spec:
   source:
     chart: sealed-secret
     repoURL: https://github.com/huynhquochuy008/argocd_test.git
-    targetRevision: HEAD
+    targetRevision: 1
     helm:
       releaseName: sealed-secrets
   destination:
