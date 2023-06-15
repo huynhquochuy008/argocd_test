@@ -11,6 +11,8 @@ spec:
     server: 'https://kubernetes.default.svc'
   project: default
   source:
-    path: ./base
+    path: base
+    directory:
+      recurse: true
     repoURL: https://github.com/argoproj/argocd-example-apps
     targetRevision: HEAD
